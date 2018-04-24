@@ -1,0 +1,50 @@
+<!--pages/user/user.wxml-->
+<scroll-view>
+
+
+
+
+  <view class='top_panel'>
+
+    <view class='setting_panel'>
+      <view></view>
+      <view class='setting_img_panel'>
+        <image class='setting_img' src='/imgs/setting.png'></image>
+      </view>
+    </view>
+
+    <view class='user_panel'>
+      <view class='user_img_panel'>
+        <image src='{{userInfo.avatarUrl}}' class='user_img'></image>
+      </view>
+
+      <view class='user_right'>
+
+        <view class='user_right1'>
+          <view class='user_nickname'>{{userInfo.nickName}}</view>
+          <view class='user_update'>
+            <image src='/imgs/update.png' class='img_right'></image>修改资料</view>
+        </view>
+
+        <view class='user_right2'>
+          <view>
+            性别:
+            <image src='/imgs/man.png' class='img_right'></image>
+          </view>
+          <view>id:1232</view>
+        </view>
+        <view class='sign'>个性签名：一个很个性的个性签名！</view>
+
+      </view>
+    </view>
+  </view>
+
+  <view class='middle'>
+    <view class="{{0==index%2?'middle_item0':'middle_item1'}}" wx:for='{{types}}' style="background-color:{{types[index].color}};">
+      <view style='display:{{types[index].display}}'>测试</view>
+      <view>{{index}}</view>
+    </view>
+  </view>
+  <view class='sys_informs'>系统通知</view>
+
+</scroll-view>

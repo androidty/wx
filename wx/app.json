@@ -1,0 +1,43 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/challenge/challenge",
+    "pages/logs/logs",
+    "pages/share/share",
+    "pages/user/user",
+    "pages/imgs/imgs",
+    "pages/statistical/statistical",
+    "pages/bar/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#dddddd",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/challenge/challenge",
+        "iconPath": "imgs/challenge.png",
+        "selectedIconPath": "imgs/challenge.png",
+        "text": "参与挑战"
+      },
+      {
+        "pagePath": "pages/share/share",
+        "iconPath": "imgs/share.png",
+        "selectedIconPath": "imgs/share.png",
+        "text": "邀请海报"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "iconPath": "imgs/user.png",
+        "selectedIconPath": "imgs/user.png",
+        "text": "个人中心"
+      }
+    ]
+  }
+}

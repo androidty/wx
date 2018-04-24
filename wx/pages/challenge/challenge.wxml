@@ -1,0 +1,56 @@
+<scroll-view>
+  <view class='top'>
+    <view class='top-title'>当前实时挑战金（元）</view>
+    <view class='top-money'>3428038.00</view>
+    <text class='top-desc'>当前有 <text style='color:#0f0fd0'>216</text> 人参与打卡挑战</text>
+
+    <cover-view class='cover'>
+      <cover-view class='t41'>1、支付10元参加挑战，挑战金可随时追加</cover-view>
+      <cover-view class='t4'>2、早上5:00-8：00进行打卡</cover-view>
+      <cover-view class='t4'>3、打卡的早友平分未打卡早友的挑战金</cover-view>
+      <cover-view class='t4'>4、未打卡的早友需重交挑战金参与挑战</cover-view>
+      <cover-view class='t4'>5、每日14:00返还打卡成功的打卡金及平分他人打卡失败的打卡金</cover-view>
+      <cover-view class='t5'>详细规则>></cover-view>
+    </cover-view>
+  </view>
+
+  <view class='btn_panel'>
+    <text class='btn'>参与挑战</text>
+    <text class='btn'>追加挑战金</text>
+  </view>
+
+  <view class='num'>当前参与份数：0</view>
+  <view class='case'>今日打卡情况</view>
+  <view class='wrap'>
+    <text class="left"><text style='color:#0f0'>212</text> 已打卡</text>
+    <text class="right"> <text style='color:#0f0'>4</text> 未打卡</text>
+  </view>
+
+  <view class='list1'>
+    <view class='list1_item' wx:for="{{list1}}">
+      <image class='list1_img' src='/imgs/user.png'></image>
+      <view class='list_text1'>天神</view>
+      <view class='list_text2'>05:00:01打卡</view>
+    </view>
+  </view>
+
+  <view class='ranking'>打卡奖励排行</view>
+
+
+  <view class='list2' wx:for="{{list2}}">
+    <view class='list2_left'>
+      <image class='list2_img' src='/imgs/user.png'></image>
+    </view>
+    <view class='list2_right'>
+      <view class='list2_right_t1'>为明天努力</view>
+      <view class='list2_right_t2'>派奖时间 08:59</view>
+      <view class='list2_right_t2'>已连续打卡
+        <text text style='color:#0f0'> 48</text>天 今日已获得奖励金
+        <text text style='color:#0f0'>1.45</text>元</view>
+    </view>
+  </view>
+  <view class='load_more_panel'>
+    <view class='load_more'>查看更多</view>
+    <view class='load_icon'>></view>
+  </view>
+</scroll-view>

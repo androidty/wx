@@ -1,0 +1,127 @@
+/* pages/share/share.wxss */
+
+.top_panel {
+  width: 92vw;
+  height: 60vh;
+  background-image: url(http://pic.ffpic.com/files/2014/0515/0515qcfjiphone4ssjbz4.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  margin: 2vw 4vw 0 4vw;
+}
+
+.center_panel {
+  display: flex;
+  flex-direction: column;
+  width: 92vw;
+  background-color: #ffdfc5;
+  margin: 0 4vw;
+  /* box-shadow:0 -50rpx 50rpx -50rpx #FFDFC5;  */
+}
+
+.cover1 {
+  width: 80vw;
+  height: 25vh;
+  background-color: #fff;
+  margin: -10vw 6vw 0;
+  border-radius: 15rpx;
+}
+
+.cover1_top {
+  display: flex;
+  margin-top: 20rpx;
+  margin-left: 20rpx;
+  margin-right: 10rpx;
+  border-bottom: 1rpx solid #ccc;
+  padding-bottom: 15rpx;
+}
+
+.cover1_top_left {
+  width: 80rpx;
+  height: 80rpx;
+  margin: 2px;
+}
+
+.cover1_top_img {
+  width: 100%;
+  height: 100%;
+}
+
+.cover1_top_right {
+  display: flex;
+  flex-direction: column;
+  margin-left: 8rpx;
+}
+
+.cover1_top_right_t1 {
+  margin-left: 2rpx;
+}
+
+.cover1_top_right_t2 {
+  color: #666;
+  padding: 2rpx;
+  font-size: 28rpx;
+}
+
+.cover1_bottom {
+  margin-left: 4rpx;
+  color: #666;
+  font-size: 28rpx;
+  display: flex;
+  margin-top: 40rpx;
+}
+
+.cover2 {
+  width: 80vw;
+  height: 20vh;
+  background-color: #fff;
+  margin: 10vw 6vw;
+  border-radius: 15rpx;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.cover2_right {
+  text-align: center;
+  width: 180rpx;
+  height: 180rpx;
+  margin-top: 25rpx;
+  margin-right: 20rpx;
+}
+
+.cover2_left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.cover2_left_t1 {
+  font-size: 42rpx;
+  font-weight:bolder;
+}
+
+.cover2_left_t2 {
+  font-size: 30rpx;
+  color: #666;
+}
+.cover2_left_t3{
+  color: white;
+  height: 40rpx;
+  text-align: center;
+  background-color: #F48B03;
+  font-size: 32rpx;
+  padding: 5rpx 8rpx;
+  border-radius: 25rpx;
+}
+
+.cover2_right_img {
+  width: 100%;
+  height: 100%;
+}
+
+.bottome_panel {
+  color: white;
+  width: 100vw;
+  text-align: center;
+  margin: 0 0 10vh 0;
+}

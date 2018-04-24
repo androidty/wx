@@ -1,0 +1,241 @@
+/* pages/challenge/challenge.wxss */
+
+
+
+.t1 {
+  width: 100%;
+  position: absolute;
+  top: 40rpx;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  text-align: center;
+  color: white;
+  size: 20sp;
+}
+
+.t2 {
+  width: 100%;
+  position: absolute;
+  top: 110rpx;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  text-align: center;
+  font-size: xx-large;
+  font-weight: bold;
+  color: #fff;
+}
+
+.t3 {
+  width: 100%;
+  position: absolute;
+  top: 220rpx;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  text-align: center;
+  color: white;
+  font-size: medium;
+}
+
+.cover {
+  width: 86%;
+  margin-left: 7%;
+  margin-top: 30rpx;
+  background-color: rgba(117, 117, 117, 0.6);
+  border-radius: 10rpx;
+}
+
+.t41 {
+  color: white;
+  font-size: 30rpx;
+  margin-top: 22rpx;
+  margin-left: 32rpx;
+}
+
+.t4 {
+  color: white;
+  font-size: 30rpx;
+  margin-top: 8rpx;
+  margin-left: 32rpx;
+  white-space:pre-wrap;
+  padding-right: 12rpx;
+}
+
+.t5 {
+  color: white;
+  margin-top: 20rpx;
+  margin-left: 65%;
+  margin-bottom: 20rpx;
+  font-size: 32rpx;
+}
+
+.top {
+  width: 100vw;
+  height: 60vh;
+  background-image: url(https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=2518093843,509595781&fm=27&gp=0.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.top-title {
+  padding-top: 50rpx;
+  text-align: center;
+  color: #fff;
+  font-size: 34rpx;
+}
+
+.top-money {
+  margin-top: 25rpx;
+  font-weight: bolder;
+  text-align: center;
+  color: #fff;
+  font-size: 44rpx;
+}
+
+.top-desc {
+  margin-top: 25rpx;
+  display: block;
+  text-align: center;
+  color: #fff;
+  font-size: 34rpx;
+}
+
+.btn_panel {
+  display: flex;
+}
+
+.btn {
+  width: 60%;
+  height: 100rpx;
+  background-color: #f90;
+  text-align: center;
+  color: #fff;
+  margin-top: 60rpx;
+  line-height: 100rpx;
+  margin-left: 30rpx;
+  margin-right: 30rpx;
+  border-radius: 60rpx;
+  box-shadow: 0 0 10rpx #f90;
+}
+
+.num {
+  text-align: center;
+  font-size: 22rpx;
+  margin-top: 22rpx;
+}
+
+.case {
+  text-align: center;
+  margin-top: 22rpx;
+}
+
+.wrap {
+  display: flex;
+  margin-top: 32rpx;
+}
+
+.left {
+  flex: 1;
+  text-align: right;
+  padding-right: 5vw;
+  border-right: 1rpx solid #999;
+  color: #999;
+}
+
+.right {
+  flex: 1;
+  padding-left: 5vw;
+  color: #999;
+}
+
+.list1 {
+  display: flex;
+  justify-content: space-between;
+  padding: 42rpx;
+  text-align: center;
+  border-bottom: 1rpx solid #ccc;
+}
+
+.list1_img {
+  width: 80%;
+  height: 18vw;
+}
+
+.list_text1 {
+  font-size: 32rpx;
+  text-align: center;
+}
+
+.list_text2 {
+  font-size: 28rpx;
+  width: 100%;
+  text-align: center;
+  color: darkorange;
+}
+
+.ranking {
+  color: #666;
+  font-size: 32rpx;
+  margin-left: 32rpx;
+  padding: 20rpx 0;
+  border-bottom: 1rpx solid #ccc;
+}
+
+.list2 {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 32rpx;
+  border-bottom: 1rpx solid #ccc;
+  margin-bottom: 20rpx;
+  margin-top: 20rpx;
+}
+
+.list2_left {
+  flex: 1;
+  text-align: center;
+}
+
+.list2_img {
+  width: 21vw;
+  height: 21vw;
+}
+
+.list2_right {
+  flex: 3;
+  margin-top: 15rpx;
+}
+
+.list2_right_t1 {
+  margin-top: 5rpx;
+  color: #333;
+  font-size: 32rpx;
+}
+
+.list2_right_t2 {
+  margin-top: 5rpx;
+  font-size: 28rpx;
+  color: #999;
+}
+
+.load_more_panel {
+  display: flex;
+  margin-left: 32rpx;
+  padding-bottom: 20rpx;
+  border-bottom: 1rpx solid #ccc;
+  justify-content: space-between;
+}
+
+.load_more {
+  color: #506fd6;
+  font-size: 34rpx;
+}
+
+.load_icon {
+  margin-right: 25rpx;
+  color: #999;
+}

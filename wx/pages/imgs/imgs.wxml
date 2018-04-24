@@ -1,0 +1,7 @@
+<!--pages/imgs/imgs.wxml-->
+<view class='all'>
+<view class='img_item' wx:for='{{imgs}}'>
+  <image class='img' src='https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=565285572,2311431934&fm=27&gp=0.jpg'></image>
+  <view style='text-align:center'>{{item.count}}</view>
+</view>
+</view>

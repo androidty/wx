@@ -1,0 +1,5 @@
+/* pages/statistical/statistical.wxss */
+.top-pie{
+  width: 100vw;
+  height: 50vw;
+}

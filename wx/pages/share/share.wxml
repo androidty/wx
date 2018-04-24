@@ -1,0 +1,53 @@
+<!--pages/share/share.wxml-->
+<!-- <view wx:for="{{[1, 2, 3, 4, 5, 6, 7, 8, 9]}}" wx:for-item="i">
+  <view wx:for="{{[1, 2, 3, 4, 5, 6, 7, 8, 9]}}" wx:for-item="j">
+    <view wx:if="{{i <= j}}">
+      {{i}} * {{j}} = {{i * j}}
+    </view>
+  </view>
+</view> -->
+
+
+<scroll-view style='background-color:#2e2d3d;'>
+
+  <view>
+    <view class='top_panel'>
+    </view>
+    <view class='center_panel'>
+      <cover-view class='cover1'>
+        <cover-view class='cover1_top'>
+          <cover-view class='cover1_top_left'>
+            <cover-image class='cover1_top_img' src='{{userInfo.avatarUrl}}'></cover-image>
+          </cover-view>
+
+          <cover-view class='cover1_top_right'>
+            <cover-view class='cover1_top_right_t1'>{{userInfo.nickName}}</cover-view>
+            <cover-view class='cover1_top_right_t2'>刚刚在[全民早起生活]上完成了打卡</cover-view>
+          </cover-view>
+        </cover-view>
+
+        <cover-view class='cover1_bottom'>您的好友
+          <cover-view style='color:#333;'>{{userInfo.nickName}}</cover-view>
+          <cover-view>邀请您一起参加早起挑战</cover-view>
+        </cover-view>
+
+
+      </cover-view>
+
+
+      <cover-view class='cover2'>
+        <cover-view class='cover2_left'>
+          <cover-view class='cover2_left_t1'>全民挑战生活</cover-view>
+          <cover-view class='cover2_left_t2'>赌你起不来，不服来挑战</cover-view>
+          <cover-view class='cover2_left_t3'>长按识别推广二维码</cover-view>
+        </cover-view>
+        <cover-view class='cover2_right'>
+          <cover-image class='cover2_right_img' src='https://qr.api.cli.im/qr?data=%25E5%2585%25A8%25E6%25B0%2591%25E6%2597%25A9%25E8%25B5%25B7%25E7%2594%259F%25E6%25B4%25BB&level=H&transparent=false&bgcolor=%23ffffff&forecolor=%23000000&blockpixel=12&marginblock=1&logourl=&size=280&kid=cliim&key=1246eb5b76d162b9f12c8d9e991d321c'></cover-image>
+        </cover-view>
+
+      </cover-view>
+    </view>
+
+  </view>
+  <view class='bottome_panel'>--长按图片保存--</view>
+</scroll-view>

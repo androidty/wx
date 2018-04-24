@@ -1,0 +1,102 @@
+/* pages/user/user.wxss */
+
+.top_panel {
+  width: 100vw;
+  height: 38vh;
+  background-color: #2e2d3d;
+}
+
+.setting_panel {
+  display: flex;
+  justify-content: space-between;
+}
+
+.setting_img {
+  width: 108rpx;
+  height: 108rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.user_panel {
+  margin-top: 30rpx;
+  display: flex;
+  justify-content: space-between;
+}
+
+.user_img {
+  width: 148rpx;
+  height: 148rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.user_right1 {
+  margin-top: 25rpx;
+  display: flex;
+  justify-content: space-around;
+  color: #fff;
+  font-size: 32rpx;
+}
+
+.user_right2 {
+  margin-top: 25rpx;
+  font-size: 32rpx;
+  display: flex;
+  justify-content: space-around;
+  color: #fff;
+  text-align: center;
+  align-items: center;
+}
+
+
+.img_right {
+  width: 42rpx;
+  height: 42rpx;
+  vertical-align: top;
+}
+
+.sign {
+  color: #fff;
+  margin-top: 25rpx;
+  font-size: 32rpx;
+ 
+}
+
+
+
+.middle {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  height: wrap;
+  margin-top: 12rpx;
+}
+
+.middle_item0{
+  background-color: #ffae57;
+  width: 48vw;
+  height: 180rpx;
+  margin: 1vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.middle_item1{
+  background-color: #ffae57;
+  width: 48vw;
+  height: 180rpx;
+  margin: 1vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.sys_informs{
+  background-color: #D4D5CA;
+  text-align: center;
+  padding: 20rpx;
+  margin: 6rpx;
+}

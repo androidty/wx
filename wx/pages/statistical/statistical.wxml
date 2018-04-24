@@ -1,0 +1,5 @@
+<!--pages/statistical/statistical.wxml-->
+
+<view class='container'>
+  <ec-canvas class='top-pie' id='chart-pie' ec='{{ec}}'></ec-canvas>
+</view>
